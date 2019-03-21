@@ -1,5 +1,6 @@
 <template>
-  <div id="app" class="max-w-sm shadow-lg p-6 m-auto justify-center items-center">
+  <div id="app" class="bg-indigo-dark p-6">
+    <div id="appe" class="max-w-md shadow-lg p-6 rounded-lg m-auto bg-white justify-center items-center">
     <div class="flex flex-row flex-wrap p-4 bg-white mb-6 border-b justify-between items-center">
       <div class="icon">
         <i class="fas text-indigo fa-angle-left"></i>
@@ -11,6 +12,7 @@
     </div>
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
     <AddTodo v-on:add-todo="addTodo"/>
+  </div>
   </div>
 </template>
 
