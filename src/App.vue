@@ -4,7 +4,7 @@
       <div class="icon">
         <i class="fas text-indigo fa-angle-left"></i>
       </div>
-      <h2 class="text-lg inline-flex tracking-loose text-indigo-dark">MONDAY, <p class="text-indigo opacity-75 ml-3">14th march</p></h2>
+      <h2 class="text-lg inline-flex tracking-loose text-indigo-dark">THRUSDAY, <p class="text-indigo opacity-75 ml-3">21th march</p></h2>
       <div class="icon">
         <i class="fas text-indigo fa-angle-right"></i>
       </div>
@@ -17,12 +17,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Todos from './components/Todos_index.vue'
+import TodoItem from './components/Todo_item.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    Todos
+    Todos,
+    TodoItem
   },
   data() {
     return {
@@ -45,7 +47,7 @@ export default {
           time: '02:30 pm',
           completed: false
         }
-      ]
+      ],
     }
   },
 }
