@@ -56,6 +56,8 @@ export default {
 
 <style>
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.css');
+@import url('https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css');
 @import './mainly.css';
 
 *{
