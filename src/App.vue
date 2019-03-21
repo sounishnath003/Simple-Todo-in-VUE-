@@ -4,28 +4,25 @@
       <div class="icon">
         <i class="fas text-indigo fa-angle-left"></i>
       </div>
-      <h2 class="text-lg inline-flex tracking-loose text-indigo-dark">THRUSDAY, <p class="text-indigo opacity-75 ml-3">21th march</p></h2>
+      <h2 class="text-lg inline-flex tracking-loose text-indigo-dark"><Fieldset>FRIDAY</Fieldset>, <p class="text-indigo opacity-75 ml-3">22th march</p></h2>
       <div class="icon">
         <i class="fas text-indigo fa-angle-right"></i>
       </div>
     </div>
-
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
+    <AddTodo v-on:add-todo="addTodo"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Todos from './components/Todos_index.vue'
-import TodoItem from './components/Todo_item.vue'
-
+import AddTodo from './components/AddTodo.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     Todos,
-    TodoItem
+    AddTodo
   },
   data() {
     return {
@@ -54,6 +51,9 @@ export default {
   methods: {
     deleteTodo (id){
       this.todos = this.todos.filter(todo => todo.id != id)
+    },
+    addTodo (newTodo) {
+      this.todos = [...this.todos, newTodo]
     }
   }
 }

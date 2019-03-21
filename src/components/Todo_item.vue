@@ -1,6 +1,6 @@
 <template>
   <div>
-        <div class="flex flex-row justify-between">
+        <div class="flex flex-row md:flex-no-wrap justify-between">
           <div class="text-grey-darker text-center px-4 py-2 m-2"  v-bind:class="{'line-through opacity-75 rubberBand':todo.completed}">
             <div class="pretty p-switch p-fill p-icon">
                 <input type="checkbox" v-on:change="markAsComplete" v-bind:class="{'line-through opacity-75 rubberBand':todo.completed}" />
