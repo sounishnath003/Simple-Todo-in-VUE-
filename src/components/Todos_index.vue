@@ -3,7 +3,7 @@
     <h2 class="text-indigo-darker  tracking-loose mb-4 ">Todays</h2>
     <div class="flex flex-col justify-center items-center">
       <div class="div inline-flex flex-wrap" v-bind:key="todo.id" v-for="todo in todos">
-        <TodoItem v-bind:todo="todo" />
+        <TodoItem v-bind:todo="todo" v-on:del-todo="$emit('del-todo', todo.id)" />
       </div>
     </div>
   </div>
