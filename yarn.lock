@@ -7366,6 +7366,11 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
+tailwindcss-animatecss@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/tailwindcss-animatecss/-/tailwindcss-animatecss-0.0.2.tgz#edd802f25c7ad34a9cdd41071d099e95094cb835"
+  integrity sha512-+pnmbY9Fg4ay1nrP2FXSQdSCHD+B8HYwZhJWWaCBW0QGInixLcyrt062RDF7z4GHhjclqCFiI1GhILLgDbHxrQ==
+
 tailwindcss@^0.7.4:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-0.7.4.tgz#fb7926821d42eacdc12e6621a49d21f37a3ff9e9"

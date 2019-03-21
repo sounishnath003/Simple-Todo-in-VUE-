@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "tailwindcss-animatecss": "^0.0.2",
     "vue": "^2.6.6"
   },
   "devDependencies": {
@@ -36,7 +37,8 @@
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
+      "autoprefixer": {},
+      "tailwindcss": "./src/tailwind.js"
     }
   },
   "browserslist": [
