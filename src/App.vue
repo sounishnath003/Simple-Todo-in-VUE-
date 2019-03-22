@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-indigo-dark p-6">
+  <div id="app" class="bg-grey-lighter p-6">
     <div id="appe" class="max-w-md shadow-lg p-6 rounded-lg m-auto bg-white justify-center items-center">
     <div class="flex flex-row flex-wrap p-4 bg-white mb-6 border-b justify-between items-center">
       <div class="icon">
